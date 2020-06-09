@@ -1,0 +1,35 @@
+{
+  "name": "CasaCriativa",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Sara-Alcaras/CasaCriativa.git",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+<<<<<<< HEAD
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "nodemon server.js"
+=======
+    "dev": "nodemon server.js",
+    "build": "npm start"
+    
+>>>>>>> 3f5cc5c3f9460ef3835017fc8a380670fe99f19b
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sara-Alcaras/CasaCriativa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sara-Alcaras/CasaCriativa/issues"
+  },
+  "homepage": "https://github.com/Sara-Alcaras/CasaCriativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "nunjucks": "^3.2.1"
+  }
+}
