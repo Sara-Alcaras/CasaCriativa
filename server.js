@@ -2,6 +2,8 @@
 const express = require('express')
 const server = express ()
 
+const db = require("./db")
+
 const ideas = [
     {
         img: "https://image.flaticon.com/icons/svg/2729/2729007.svg",
@@ -66,6 +68,8 @@ nunjucks.configure("views", {
 // criar uma rota / capturar o pedido do cliente para responder
 // 
 server.get("/", function(req, res) {
+
+    
 
     const reverseIdeas = [...ideas].reverse()
 
