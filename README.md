@@ -10,7 +10,7 @@ de confinamento pelo Covid-19 mais interessante
 # Back-end
 - Node.js
 - SQLite 3
-Dependências
+# Dependências
 - Express
 - Nodemon
 - Nunjucks
